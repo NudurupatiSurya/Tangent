@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Register">
+
+    <EditText
+        android:id="@+id/firstname"
+        android:layout_width="197dp"
+        android:layout_height="86dp"
+        android:layout_row="0"
+        android:layout_column="0"
+        android:hint="First Name"
+        android:inputType="text"></EditText>
+
+    <EditText
+        android:id="@+id/lastname"
+        android:layout_width="216dp"
+        android:layout_height="83dp"
+        android:layout_row="0"
+        android:layout_column="1"
+        android:hint="Last Name"
+        android:inputType="text"></EditText>
+
+    <EditText
+        android:id="@+id/dob"
+        android:layout_width="194dp"
+        android:layout_height="108dp"
+        android:layout_row="1"
+        android:layout_column="0"
+        android:hint="DateofBirth"
+        android:inputType="date"
+
+        ></EditText>
+
+    <Spinner
+        android:id="@+id/gender"
+        android:layout_width="143dp"
+        android:layout_height="67dp"
+        android:spinnerMode="dropdown"
+
+        android:layout_row="2"
+        android:layout_column="1">
+
+    </Spinner>
+    <TextView
+        android:layout_row="2"
+        android:layout_column="0"
+        android:text="GENDER"
+        android:layout_gravity="center_vertical"></TextView>
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_row="3"
+        android:layout_column="0"
+        android:layout_gravity="center_horizontal"
+        android:text="Submit"></Button>
+</GridLayout>

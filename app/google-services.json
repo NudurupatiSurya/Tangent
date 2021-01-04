@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "824260866500",
+    "firebase_url": "https://flourinne-1576226559968.firebaseio.com",
+    "project_id": "flourinne-1576226559968",
+    "storage_bucket": "flourinne-1576226559968.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:824260866500:android:4298c0283b19966b7ef491",
+        "android_client_info": {
+          "package_name": "com.salvatore.flourinne"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "824260866500-jqd59d3qdu1b95a11lr2i5lk9ar6qb6c.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.salvatore.flourinne",
+            "certificate_hash": "a8474bc06ac614d4cbca146f68e73a698b8cfb15"
+          }
+        },
+        {
+          "client_id": "824260866500-sbgfuhj3kq5o85ssovulm65qsia2mjbp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDxF1W1rPvKlfStWJLMm0VKog8-5v3LQMs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "824260866500-sbgfuhj3kq5o85ssovulm65qsia2mjbp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

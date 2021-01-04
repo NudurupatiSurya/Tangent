@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Solo">
+
+    <EditText
+        android:id="@+id/title"
+        android:layout_width="208dp"
+        android:layout_height="73dp"
+        android:layout_row="0"
+        android:layout_column="0"
+        android:hint="Enter Your Event Title"
+        android:inputType="text"></EditText>
+
+    <EditText
+        android:id="@+id/objective"
+        android:layout_width="wrap_content"
+        android:layout_height="73dp"
+        android:layout_row="1"
+        android:layout_column="0"
+        android:hint="Enter Your Event Objective"
+        android:inputType="text"></EditText>
+
+    <EditText
+        android:id="@+id/venue"
+        android:layout_width="155dp"
+        android:layout_height="73dp"
+        android:layout_row="2"
+        android:layout_column="0"
+        android:hint="Enter Venue"
+        android:inputType="textPostalAddress"></EditText>
+
+    <EditText
+        android:id="@+id/timings"
+        android:layout_width="165dp"
+        android:layout_height="73dp"
+        android:layout_row="3"
+        android:layout_column="0"
+        android:hint="Enter Timings"
+        android:inputType="time"></EditText>
+
+    <Button
+        android:id="@+id/image"
+        android:layout_width="166dp"
+        android:layout_height="129dp"
+        android:layout_row="4"
+        android:layout_column="0"
+        android:background="@drawable/ic_add_black_24dp"></Button>
+
+    <TextView
+        android:id="@+id/imagetext"
+        android:layout_width="92dp"
+        android:layout_height="wrap_content"
+        android:layout_row="4"
+        android:layout_column="1"
+        android:layout_gravity="center_horizontal"></TextView>
+
+    <Button
+        android:id="@+id/submitsolo"
+        android:layout_row="5"
+        android:layout_column="0"
+        android:layout_gravity="center"
+        android:background="#ffff"
+        android:text="submit"></Button>
+</GridLayout>
